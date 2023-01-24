@@ -47,6 +47,7 @@ h2 {
   margin: 10px;
   padding-bottom: 12px;
   border-bottom: 1px solid #000;
+  font-family: "Lato", sans-serif;
 }
 .container_button {
   padding: 0px;
@@ -61,4 +62,5 @@ h2 {
 .style_button:hover {
   background-color: #000;
   color: #fff;
+  border-color: #fff;
 }
