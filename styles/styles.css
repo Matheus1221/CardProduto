@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  background-color: #4f4f4f;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.container_content {
+  display: flex;
+}
+.image_content img {
+  height: 350px;
+  border-radius: 30px 0 0 30px;
+}
+.description_content {
+  height: 350px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 0px 30px 30px 0px;
+  text-align: center;
+  word-break: break-all;
+}
+.description_content h3 {
+  font-family: "Aboreto", cursive;
+}
+.description_content h2,
+h3 {
+  padding-top: 20px;
+  font-size: 18px;
+}
+.description_content p {
+  padding: 30px;
+  font-size: 12px;
+}
